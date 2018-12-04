@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/sanitize.css">
+    <link rel="stylesheet" href="/css/animate.css">
+    <link rel="stylesheet" href="/css/styles.css?v=1.1">
+    <link rel="stylesheet" href="/css/queries.css?v=1.1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <script type="text/javascript">
+    function showMobileMenu() {
+        var mobileMenu = document.getElementById("mobile-menu");
+        var mobileMenuBtn = document.getElementById("mobile-menu-btn-icon");
+        if (mobileMenu.classList.contains("show")) {
+            mobileMenu.classList.remove("show");
+        } else {
+            mobileMenu.classList.add("show");
+        }
+        if (mobileMenuBtn.classList.contains("fa-bars")) {
+            mobileMenuBtn.classList.remove("fa-bars");
+            mobileMenuBtn.classList.add("fa-times");
+        } else {
+            mobileMenuBtn.classList.remove("fa-times");
+            mobileMenuBtn.classList.add("fa-bars");
+        }
+    }
+    </script>
+
+    <title>Isaac Iverson | Manifesto</title>
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <a href="/index.html" class="logo-linker"><img id="header-logo" draggable="false" src="/img/logo_alt.png" alt=""></a>
+            <!-- <a href="/about.html">about</a> -->
+            <a href="/manifesto.html" class="active">manifesto</a>
+            <a href="/index.html#portfolio">portfolio</a>
+        </nav>
+        <a href="mailto:isaaciverson1024@gmail.com?Subject=You%20are%20hired" class="btn hire-me">
+            <i class="fas fa-envelope"></i>
+            &nbsp;hire me
+        </a>
+        <a href="#" id="mobile-menu-btn" onclick="showMobileMenu()">
+            <i id="mobile-menu-btn-icon" class="fas fa-bars"></i>
+        </a>
+    </header>
+    <nav id="mobile-menu">
+        <a href="/manifesto.html">manifesto</a>
+        <a href="/index.html#portfolio">portfolio</a>
+        <a href="mailto:isaaciverson1024@gmail.com?Subject=You%20are%20hired">hire me</a>
+    </nav>
+    <main>
+        <div class="manifesto-masthead"></div>
+        <div class="manifesto">
+            <h1>manifesto</h1>
+            <span class="manifesto__meta">
+                <i class="fas fa-pencil-alt"></i>&nbsp;
+                Isaac Iverson&nbsp;&nbsp;|&nbsp;&nbsp;
+                <i class="far fa-calendar"></i>&nbsp;
+                December 4, 2018
+            </span>
+            <p>There are a handful of presuppositions in my worldview which I consciously hold to true — and a sparse few that I allow
+            undying influential say in my life and work. Those sparse few presuppositions have come to inform every part of my
+            being, and can only be found in what I think is best described as God’s Love Letter to Humanity — the Bible.</p>
+            
+            <p>For instance, I believe that human beings were created by a living and active God. I also believe that as His final
+            creative work, His crowning achievement, we motley mankind were endowed by Him with His image and granted with the
+            ability and responsibility to truth-tell and to create. I believe that because of this vivid and inborn image, each
+            person is born with unimaginable value, dignity, and worth. I believe that because of His infinitely unconditional love
+            for every human being, His son chose to become one of us, to live the life that was required of us, to die the death
+            that we deserved, in order to repair the relationship between Him and us that has been marred since Adam.</p>
+            
+            <p>This is what I hold to be true.</p>
+
+            <p>This is what I consciously allow to influence my life and my work.</p>
+
+            <p>But it shouldn’t stop there. I think that Stephen Fry put it best when he wrote, “a true thing, poorly expressed, is a
+            lie.”</p>
+
+            <p>As a fellow image-bearer, I have the responsibility to tell you the truth in the most richly expressive way that I can.
+            As one who has been adopted by God because of my faith in His Son, it is my duty to express truths about Him through my
+            every action. I will fail at this, but I will not stop trying.</p>
+
+            <p>All of my creative work is to be a reflection of His creativity. All of my labor is to be worked and completed as if I
+            am working directly for Him.</p>
+
+            <p>All glory be to Christ.</p>
+        </div>
+    </main>
+    <footer>
+        <div class="footer__left">
+            <i class="far fa-copyright"></i> 2018 Isaac Iverson
+        </div>
+        <div class="footer__right">
+            <ul class="social-btns horizontal">
+                <li><a href="mailto:isaaciverson1024@gmail.com?Subject=General Inquiry"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/isaac-iverson"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://dribbble.com/isaaciverson"><i class="fab fa-dribbble"></i></a></li>
+                <li><a href="https://github.com/isaaciverson"><i class="fab fa-github"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!-- <div class="hero intro">
+            <div class="hero-content custom">
+                <h1>my name is Isaac Iverson,<br>and I'm a <span class="animated fadeIn">website designer.</span></h1>
+                <a class="btn black" href="">
+                    check out my work&nbsp;
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                </a>
+            </div>
+            <ul class="social-btns">
+                <li>
+                    <a href="https://www.facebook.com/isaac.iverson"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/isaac-iverson"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                    <a href="https://dribbble.com/isaaciverson"><i class="fab fa-dribbble"></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com/isaaciverson"><i class="fab fa-github"></i></a>
+                </li>
+            </ul>
+        </div> -->
+
+.hero.intro { background: #ffffff url("../img/map-blur.png") no-repeat bottom right; background-size: 600px; }
+
+.hero-content { display: block; box-sizing: border-box; }
+
+.hero.intro .hero-content.custom { padding-left: 5.5em; }
+
+.hero h1 { font-size: 2.75em; letter-spacing: -1px; }
+
+.hero h1 span { box-shadow: inset 0 -1px 0 white, inset 0 -10px 0 #00A8FF; }
+
+.social-btns { display: flex; flex-direction: column; align-items: center; }
+
+.social-btns li, .social-btns li a { all: unset; }
+
+.social-btns li a {
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    box-sizing: border-box;
+    width: 3em; height: 3em;
+    border: 2px solid #000000; border-radius: 100%;
+    font-size: 0.9em;
+    margin: 0.25em 0em;
+} .social-btns li a:hover { background-color: #000000; color: #ffffff }

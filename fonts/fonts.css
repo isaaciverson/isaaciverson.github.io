@@ -1,3 +1,17 @@
 @font-face {
-    
+    font-family: 'BigJohn';
+    font-weight: 200;
+    src: 'BigJohnPRO-Light.otf';
+}
+
+@font-face {
+    font-family: 'BigJohn';
+    font-weight: 400;
+    src: 'BigJohnPRO-Regular.otf';
+}
+
+@font-face {
+    font-family: 'BigJohn';
+    font-weight: 800;
+    src: 'BigJohnPRO-Bold.otf';
 }

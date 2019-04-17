@@ -23,7 +23,7 @@ header a {
     font-size: 0.9em; font-weight: 700; letter-spacing: 1px;
 }
 
-header nav a { margin-right: 2.5em; font-weight: 300; }
+header nav a { margin-right: 2.5em; font-weight: 700; font-size: 0.8em; text-transform: uppercase; }
 
 header nav a.active, header nav a:hover { text-decoration: underline; }
 
@@ -70,7 +70,7 @@ header nav a.active, header nav a:hover { text-decoration: underline; }
 
 .intro .hero__left h1 { margin-top: -1em; font-size: 2.5em; line-height: 130%; font-weight: 200; }
 
-.intro .hero__left h1 span { color: inherit; font-weight: 900; }
+.intro .hero__left h1 span { color: inherit; font-weight: 700; }
 
 .intro .hero__right {
     background: url('../img/map-blur.png') no-repeat center center;
@@ -82,7 +82,7 @@ header nav a.active, header nav a:hover { text-decoration: underline; }
 .craft-and-calling {
     width: 100%;
     padding: 4em;
-    background-color: #000000; color: #ffffff;
+    background-color: #ffffff; color: #000000;
     display: flex; align-items: center; justify-content: center;
 }
 
@@ -133,6 +133,8 @@ header nav a.active, header nav a:hover { text-decoration: underline; }
     margin: 0.5em !important;
     text-align: left;
 }
+
+.card__subtitle { font-weight: 300; }
 
 .card__upper {
     border-top-left-radius: 0.75em; border-top-right-radius: 0.75em;
@@ -260,20 +262,20 @@ footer {
     padding: 1.75em;
 }
 
-.footer__left { text-transform: lowercase; font-size: 0.9em; }
+.footer__left { text-transform: uppercase; font-weight: 300; font-size: 0.8em; }
 
 /* Misc Styles */
 
 .btn {
     padding: 0.75em 1.75em;
-    -webkit-text-fill-color: #ffffff;
-    background-color: #00A8FF; color: #ffffff;
-    border-radius: 2em;
+    -webkit-text-fill-color: #000000;
+    background-color: inheret; color: #000000;
+    border: 1px solid #000000;
     text-decoration: none;
     display: inline-block;
-    font-weight: 400;
+    font-weight: 300; font-size: 0.8em; text-transform: uppercase;
     margin: 0;
-} .btn:hover { background-color: #04a2f1; }
+} .btn:hover { background-color: #000000; color: #ffffff; -webkit-text-fill-color: #ffffff; }
 
 .btn.black {
     -webkit-text-fill-color: #ffffff;

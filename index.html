@@ -12,19 +12,70 @@
     <link rel="stylesheet" href="/css/queries.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
         crossorigin="anonymous">
-    <script src="//instant.page/1.2.2" type="module" integrity="sha384-2xV8M5griQmzyiY3CDqh1dn4z3llDVqZDqzjzcY+jCBCk/a5fXJmuZ/40JJAPeoU"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
-    <script src="js/index.js"></script>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 
     <title>Freelance Creative Work | Isaac Iverson</title>
 </head>
-<body>
-    <div>
-        <img src="img/bear.jpg" alt="it's a bear, yay.">
-        <p>Bear with us.<br>Something cooler is coming soon.</p>
-    </div>
+<body class="animated fadeIn">
+    <main id="main" class="black white-text">
+        <div>
+            <h1>Isaac Iverson is a<br><span id="title">professional creator</span><br>in Chicago, Il.</h1>
+            <a href="/manifesto.html" class="btn">MANIFESTO</a> 
+        </div>
+        <span class="copyright"><i class="far fa-copyright"></i>Isaac Iverson 2019</span>
+    </main>
+
+    <aside class="white">
+        <div href="/index.html" class="logo-holder">
+            <span>Isaac Iverson</span>
+            <img src="img/logo.png" alt="" class="logo">
+        </div>
+        <nav class="main-menu">
+            <a id="design" href="" onmouseover="designMouseOver()" onmouseout="designMouseOut()">
+                Design <i class="fas fa-chevron-right"></i>
+            </a>
+            <a id="music" href="" onmouseover="musicMouseOver()" onmouseout="musicMouseOut()">
+                Music <i class="fas fa-chevron-right"></i>
+            </a>
+            <a id="video" href="" onmouseover="videoMouseOver()" onmouseout="videoMouseOut()">
+                Videography <i class="fas fa-chevron-right"></i>
+            </a>
+            <a id="vr" href="" onmouseover="vrMouseOver()" onmouseout="vrMouseOut()">
+                Virtual Reality <i class="fas fa-chevron-right"></i>
+            </a>
+            <a id="other" href="">
+                Other <i class="fas fa-chevron-right"></i>
+            </a>
+            <a id="manifesto-mobile" href="/manifesto.html" class="btn">MANIFESTO</a>
+        </nav>
+        <span class="copyright"><i class="far fa-copyright"></i>Isaac Iverson 2019</span>
+        <nav class="social-menu">
+            <a href="https://github.com/isaaciverson"><i class="fab fa-github"></i></a>
+            <a href="https://dribbble.com/isaaciverson"><i class="fab fa-dribbble"></i></a>
+            <a href="https://www.linkedin.com/in/isaac-iverson/"><i class="fab fa-linkedin-in"></i></a>
+            <a href="/contact.html"><i class="fas fa-envelope"></i></a>
+        </nav>
+    </aside>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script type="text/javascript" src="js/instantpage.js" type="module"
+        integrity="sha384-2xV8M5griQmzyiY3CDqh1dn4z3llDVqZDqzjzcY+jCBCk/a5fXJmuZ/40JJAPeoU"></script>
+    <script>
+        Toastify({
+                text: "Portfolio coming soon!",
+                duration: 10000,
+                close: true,
+                gravity: "top", // `top` or `bottom`
+                positionLeft: true, // `true` or `false`
+                backgroundColor: "#000000",
+            }).showToast();
+   </script>
 </body>
 </html>

@@ -15,6 +15,10 @@ function showMobileMenu() {
     }
 }
 
+// MENU MOUSECLICK
+
+// MENU MOUSEOVERS
+
 function designMouseOver() {
     document.getElementById("main").classList.remove("white-text");
     document.getElementById("main").classList.add("purple", "black-text");

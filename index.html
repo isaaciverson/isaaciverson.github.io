@@ -32,27 +32,27 @@
         <span class="copyright"><i class="far fa-copyright"></i>Isaac Iverson 2019</span>
     </main>
 
-    <aside class="white">
+    <aside class="white" id="sidebar">
         <div href="/index.html" class="logo-holder">
             <span>Isaac Iverson</span>
             <img src="img/logo.png" alt="" class="logo">
         </div>
         <nav class="main-menu">
-            <a id="design" href="" onmouseover="designMouseOver()" onmouseout="designMouseOut()">
+            <span id="design" href="" onmouseover="designMouseOver()" onmouseout="designMouseOut()">
                 Design <i class="fas fa-chevron-right"></i>
-            </a>
-            <a id="music" href="" onmouseover="musicMouseOver()" onmouseout="musicMouseOut()">
+            </span>
+            <span id="music" href="" onmouseover="musicMouseOver()" onmouseout="musicMouseOut()">
                 Music <i class="fas fa-chevron-right"></i>
-            </a>
-            <a id="video" href="" onmouseover="videoMouseOver()" onmouseout="videoMouseOut()">
+            </span>
+            <span id="video" href="" onmouseover="videoMouseOver()" onmouseout="videoMouseOut()">
                 Videography <i class="fas fa-chevron-right"></i>
-            </a>
-            <a id="vr" href="" onmouseover="vrMouseOver()" onmouseout="vrMouseOut()">
+            </span>
+            <span id="vr" href="" onmouseover="vrMouseOver()" onmouseout="vrMouseOut()">
                 Virtual Reality <i class="fas fa-chevron-right"></i>
-            </a>
-            <a id="other" href="">
+            </span>
+            <span id="other" href="">
                 Other <i class="fas fa-chevron-right"></i>
-            </a>
+            </span>
             <a id="manifesto-mobile" href="/manifesto.html" class="btn">MANIFESTO</a>
         </nav>
         <span class="copyright"><i class="far fa-copyright"></i>Isaac Iverson 2019</span>
@@ -73,7 +73,7 @@
                 duration: 10000,
                 close: true,
                 gravity: "top", // `top` or `bottom`
-                positionLeft: true, // `true` or `false`
+                positionLeft: false, // `true` or `false`
                 backgroundColor: "#000000",
             }).showToast();
    </script>

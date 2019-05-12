@@ -1,8 +1,8 @@
 @media only screen and (max-width: 602px) {
     #main { display: none; }
     #main h1 { display: none; }
-    aside .copyright { display: inline-block; }
-    aside { max-width: 100%; }
+    #sidebar .copyright { display: inline-block; }
+    #sidebar { max-width: 100%; }
     #manifesto-mobile { display: inline-block; padding: 1.25em 1.75em; }
     .logo-holder span { display: inline-block; }
 
@@ -16,4 +16,5 @@
 @media only screen and (max-width: 815px) {
     #main { text-align: center; justify-content: center; }
     #main h1 { display: none; }
+    #main div { padding-left: 0px; }
 }

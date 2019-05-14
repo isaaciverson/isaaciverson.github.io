@@ -185,7 +185,8 @@ form input[type="submit"] {
 #sidebar {
     order: 1;
     flex-grow: 1;
-    max-width: 330px;
+    min-width: 330px;
+    max-width: 25%;
     padding: 24px;
 
     display: flex; flex-direction: column; justify-content: space-between; align-items: flex-end;

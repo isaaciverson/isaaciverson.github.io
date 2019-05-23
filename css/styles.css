@@ -213,8 +213,9 @@ form input[type="submit"] {
 .logo-holder span {
     margin-right: 0.75em;
     font-weight: 500;
+    color: #000000;
     display: none;
-}
+} .logo-holder { text-decoration: none; }
 
 #main div { padding-left: 50px; }
 

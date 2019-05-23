@@ -160,15 +160,15 @@ form input[type="submit"] {
     margin-top: 16px;
 }
 
-/* HOVER STATES */
+/* ACTIVE, HOVER STATES */
 
-#design:hover { color: #8158FC; }
+#design:hover, #design.active { color: #8158FC !important; }
 
-#music:hover { color: #3FDE87; }
+#music:hover, #music.active { color: #3FDE87 !important; }
 
-#video:hover { color: #FB5252; }
+#video:hover, #video.active { color: #FB5252 !important; }
 
-#vr:hover { color: #EEDA2B; }
+#vr:hover, #vr.active { color: #EEDA2B !important; }
 
 /* HOME CONTENT */
 

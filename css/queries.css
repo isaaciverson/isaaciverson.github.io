@@ -5,6 +5,7 @@
     #sidebar { max-width: 100%; }
     #manifesto-mobile { display: inline-block; padding: 1.25em 1.75em; }
     .logo-holder span { display: inline-block; }
+    #main-menu { margin-right: 0px; }
 
     form input, form textarea {
         width: 100%;

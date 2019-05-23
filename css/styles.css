@@ -201,7 +201,7 @@ form input[type="submit"] {
 
 #manifesto-mobile { display: none; padding: inherit; }
 
-#main-menu { margin-right: 20px; }
+.main-menu { margin-right: 20px; }
 
 #main .copyright {
     position: absolute;

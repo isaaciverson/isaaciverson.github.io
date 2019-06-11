@@ -6,12 +6,12 @@
     #manifesto-mobile { display: inline-block; padding: 1.25em 1.75em; }
     .logo-holder span { display: inline-block; }
 
-    /* #design-body #sidebar,
+    #design-body #sidebar,
     #music-body #sidebar,
     #video-body #sidebar,
     #vr-body #sidebar,
     #other-body #sidebar {
-        display: none;
+        display: none !important;
     }
 
     #design-body #main,
@@ -19,8 +19,8 @@
     #video-body #main,
     #vr-body #main,
     #other-body #main {
-        min-width: 100%; max-width: 100%;
-    } */
+        min-width: 100% !important; max-width: 100% !important;
+    }
 
     form input, form textarea {
         width: 100%;

@@ -1,15 +1,5 @@
 @font-face {
     font-family: 'Public Sans';
-    src: url('PublicSans-BoldItalic.eot');
-    src: url('PublicSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('PublicSans-BoldItalic.woff') format('woff'),
-        url('PublicSans-BoldItalic.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Public Sans';
     src: url('PublicSans-Italic.eot');
     src: url('PublicSans-Italic.eot?#iefix') format('embedded-opentype'),
         url('PublicSans-Italic.woff') format('woff'),
@@ -30,72 +20,12 @@
 
 @font-face {
     font-family: 'Public Sans';
-    src: url('PublicSans-ExtraBoldItalic.eot');
-    src: url('PublicSans-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('PublicSans-ExtraBoldItalic.woff') format('woff'),
-        url('PublicSans-ExtraBoldItalic.ttf') format('truetype');
-    font-weight: 800;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Public Sans';
-    src: url('PublicSans-ExtraBold.eot');
-    src: url('PublicSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('PublicSans-ExtraBold.woff') format('woff'),
-        url('PublicSans-ExtraBold.ttf') format('truetype');
-    font-weight: 800;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Public Sans';
     src: url('PublicSans-SemiBold.eot');
     src: url('PublicSans-SemiBold.eot?#iefix') format('embedded-opentype'),
         url('PublicSans-SemiBold.woff') format('woff'),
         url('PublicSans-SemiBold.ttf') format('truetype');
-    font-weight: 600;
+    font-weight: bold;
     font-style: normal;
-}
-
-@font-face {
-    font-family: 'Public Sans';
-    src: url('PublicSans-Black.eot');
-    src: url('PublicSans-Black.eot?#iefix') format('embedded-opentype'),
-        url('PublicSans-Black.woff') format('woff'),
-        url('PublicSans-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Public Sans';
-    src: url('PublicSans-ExtraLight.eot');
-    src: url('PublicSans-ExtraLight.eot?#iefix') format('embedded-opentype'),
-        url('PublicSans-ExtraLight.woff') format('woff'),
-        url('PublicSans-ExtraLight.ttf') format('truetype');
-    font-weight: 200;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Public Sans';
-    src: url('PublicSans-Medium.eot');
-    src: url('PublicSans-Medium.eot?#iefix') format('embedded-opentype'),
-        url('PublicSans-Medium.woff') format('woff'),
-        url('PublicSans-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Public Sans';
-    src: url('PublicSans-BlackItalic.eot');
-    src: url('PublicSans-BlackItalic.eot?#iefix') format('embedded-opentype'),
-        url('PublicSans-BlackItalic.woff') format('woff'),
-        url('PublicSans-BlackItalic.ttf') format('truetype');
-    font-weight: 900;
-    font-style: italic;
 }
 
 @font-face {
@@ -104,77 +34,6 @@
     src: url('PublicSans-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
         url('PublicSans-SemiBoldItalic.woff') format('woff'),
         url('PublicSans-SemiBoldItalic.ttf') format('truetype');
-    font-weight: 600;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Public Sans';
-    src: url('PublicSans-Thin.eot');
-    src: url('PublicSans-Thin.eot?#iefix') format('embedded-opentype'),
-        url('PublicSans-Thin.woff') format('woff'),
-        url('PublicSans-Thin.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Public Sans';
-    src: url('PublicSans-MediumItalic.eot');
-    src: url('PublicSans-MediumItalic.eot?#iefix') format('embedded-opentype'),
-        url('PublicSans-MediumItalic.woff') format('woff'),
-        url('PublicSans-MediumItalic.ttf') format('truetype');
-    font-weight: 500;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Public Sans';
-    src: url('PublicSans-ThinItalic.eot');
-    src: url('PublicSans-ThinItalic.eot?#iefix') format('embedded-opentype'),
-        url('PublicSans-ThinItalic.woff') format('woff'),
-        url('PublicSans-ThinItalic.ttf') format('truetype');
-    font-weight: 100;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Public Sans';
-    src: url('PublicSans-Bold.eot');
-    src: url('PublicSans-Bold.eot?#iefix') format('embedded-opentype'),
-        url('PublicSans-Bold.woff') format('woff'),
-        url('PublicSans-Bold.ttf') format('truetype');
     font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Public Sans';
-    src: url('PublicSans-ExtraLightItalic.eot');
-    src: url('PublicSans-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
-        url('PublicSans-ExtraLightItalic.woff') format('woff'),
-        url('PublicSans-ExtraLightItalic.ttf') format('truetype');
-    font-weight: 200;
     font-style: italic;
 }
-
-@font-face {
-    font-family: 'Public Sans';
-    src: url('PublicSans-LightItalic.eot');
-    src: url('PublicSans-LightItalic.eot?#iefix') format('embedded-opentype'),
-        url('PublicSans-LightItalic.woff') format('woff'),
-        url('PublicSans-LightItalic.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Public Sans';
-    src: url('PublicSans-Light.eot');
-    src: url('PublicSans-Light.eot?#iefix') format('embedded-opentype'),
-        url('PublicSans-Light.woff') format('woff'),
-        url('PublicSans-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
-

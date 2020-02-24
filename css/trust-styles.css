@@ -2,16 +2,15 @@
 
 body {
     width: 100vw; height: 100vh;
-    font-family: 'Public Sans', sans-serif;
+    font-family: sans-serif;
     color: #000000;
     -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
     box-sizing: border-box;
-    /* border: 10px solid #000000; */
 }
 
 main {
     width: 100%; height: 100%;
-    display: flex; align-items: center;
+    display: flex; align-items: center; justify-content: center;
 }
 
 /* ELEMENTS */
@@ -69,6 +68,10 @@ a.nav-btn#main_downnav {
     font-size: 80%;
 }
 
+.btn.rounded {
+    border-radius: 5em;
+}
+
 .btn.themed {
     border: none;
     background-color: #8158FC; color: #ffffff;
@@ -80,48 +83,6 @@ a.nav-btn#main_downnav {
     font-size: 30px
 }
 
-#contact-btn_main {
-    position: absolute;
-    top: 50px; right: 50px;
-}
-
-.social-menu {
-    width: 18px; height: 160px;
-    overflow: hidden;
-    display: flex; flex-direction: column;
-    align-content: center; justify-content: space-between;
-    padding: 0px;
-    position: absolute; bottom: 50px; right: 50px;
-}
-
-.social-menu a {
-    border: none;
-    color: #000000; text-decoration: none;
-    display: block;
-    width: 18px; height: 18px;
-}
-
-.copyright {
-    display: inline-block;
-    font-size: 12px;
-    opacity: 0.3;
-}
-
-.copyright i { margin-right: 10px; }
-
-h1 {
-    font-size: 34.18px;
-    font-weight: bold;
-    line-height: 136.76%;
-}
-
-#hero_welcome {
-    box-sizing: border-box;
-    margin: 0 auto;
-    padding: 50px;
-    width: 100%; max-width: 1000px;
-}
-
 p {
     font-size: 14px;
     font-weight: 300;
@@ -129,71 +90,7 @@ p {
     margin-top: 0px; padding-bottom: 1em;
 }
 
-.logo { width: 33px; height: 33px; }
-
-#sitelogo_main {
-    position: absolute;
-    top: 50px; left: 50px;
-}
-
-/* FORM STYLES */
-
-#contact form {
-    margin-top: 2em;
-    overflow: hidden;
-}
-
-form input, textarea {
-    outline: none;
-    border: none; border: 1px solid #000000;
-    padding: 8px 12px;
-    font-size: 1em;
-    transition: all 100ms;
-    margin-top: 24px;
-}
-
-form input[name="name"],
-form input[name="email"],
-form input[name="company"],
-form input[name="subject"] {
-    width: 48%;
-}
-
-form input[name="name"], form input[name="company"]  { margin-right: 16px; }
-
-form textarea { width: 99.25%; height: 300px; }
-
-form input[type="submit"] {
-    background-color: #000000; color: #ffffff;
-    font-weight: 600; font-size: 15px;
-    text-decoration: none;
-    border: 2px solid #000000;
-    line-height: 1px;
-    padding: 1.25em 1.75em;
-    cursor: pointer;
-    margin-top: 16px;
-}
 
 /* ACTIVE, HOVER STATES */
 
 .btn:hover { background-color: #000000; color: #ffffff; }
-
-/* HOME CONTENT */
-
-
-
-/* MANIFESTO/CONTACT CONTENT */
-
-
-
-/* CONTACT SUCCESS FORM */
-
-#contact-success {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#contact-success div { text-align: center; }
-
-#contact-success div p { padding-bottom: 0em; }

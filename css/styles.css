@@ -160,6 +160,9 @@ form input[type="submit"] {
     margin-top: 16px;
 }
 
+/* hide scrollbars on contact forms and about */
+#contact ::-webkit-scrollbar , #manifesto ::-webkit-scrollbar { width: 0 !important; overflow: -moz-scrollbars-none; -ms-overflow-style: none; }
+
 /* ACTIVE, HOVER STATES */
 
 #design:hover, #design.active { color: #8158FC !important; }

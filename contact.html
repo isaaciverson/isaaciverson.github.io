@@ -17,7 +17,7 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
-    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
 
@@ -39,7 +39,9 @@
                 <input type="text" name="company" placeholder="Company">
                 <input type="text" name="subject" placeholder="Subject" required>
                 <textarea name="message" cols="30" rows="10" placeholder="Message... (10 character minimum)" required minlength="10" maxlength="2000"></textarea>
-                <input type="submit" value="SEND IT" class="g-recaptcha" data-sitekey="6LffOQEVAAAAAL-MhEqwL2cKxzkc_PSistwPbVQ0">
+                <div class="g-recaptcha" class="g-recaptcha" data-sitekey="6LffOQEVAAAAAL-MhEqwL2cKxzkc_PSistwPbVQ0"></div>
+                <br />
+                <input type="submit" value="SEND IT">
             </form>
         </div>
     </main>

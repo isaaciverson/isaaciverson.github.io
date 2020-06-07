@@ -149,7 +149,7 @@ form input[name="name"], form input[name="company"]  { margin-right: 16px; }
 
 form textarea { width: 99.25%; height: 300px; }
 
-form input[type="submit"] {
+form input[type="submit"], .g-recaptcha {
     background-color: #000000; color: #ffffff;
     font-weight: 600; font-size: 15px;
     text-decoration: none;

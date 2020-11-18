@@ -4,7 +4,7 @@ html { width: 100%; height: 100%; }
 
 body {
     width: 100%; height: 100%;
-    font-family: 'Public Sans', sans-serif;
+    font-family: 'HK Grotesk', sans-serif;
     color: #000000;
     display: flex; align-content: stretch;
     -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
@@ -12,19 +12,6 @@ body {
 
 
 /* ELEMENTS */
-
-.black { background-color: #000000; } .black-text { color: #000000; }
-
-.white { background-color: #ffffff; } .white-text { color: #ffffff; }
-
-.purple { background-color: #8158FC; } .purple-text { color: #8158FC; }
-
-.green { background-color: #3FDE87; } .green-text { color: #3FDE87; }
-
-.red { background-color: #FB5252; } .red-text { color: #FB5252; }
-
-.yellow { background-color: #EEDA2B; } .yellow-text { color: #EEDA2B; }
-
 .bordered {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -54,48 +41,6 @@ body {
     padding: 0.25em 0.42em;
     font-size: 30px
 }
-
-.social-menu {
-    width: 160px; height: 18px;
-    overflow: hidden;
-    display: flex; flex-direction: row;
-    align-content: center; justify-content: space-between;
-    padding: 0px;
-}
-
-.social-menu a {
-    color: #000000; text-decoration: none;
-    display: block;
-    width: 18px; height: 18px;
-}
-
-.main-menu {
-    font-size: 24px;
-    width: 300px;
-}
-
-.main-menu span, .main-menu a {
-    color: #000000; font-weight: 400;
-    text-decoration: none;
-    display: flex; justify-content: right; align-items: center;
-    padding-bottom: 46px;
-    float: right;
-    clear: both;
-    cursor: pointer;
-}
-
-.main-menu span i {
-    font-size: 18px;
-    margin-left: 20px;
-}
-
-.copyright {
-    display: inline-block;
-    font-size: 12px;
-    opacity: 0.3;
-}
-
-.copyright i { margin-right: 10px; }
 
 h1 {
     font-size: 62px; font-weight: 400;
@@ -160,67 +105,8 @@ form input[type="submit"] {
     margin-top: 16px;
 }
 
-/* hide scrollbars on contact forms and about */
-#contact ::-webkit-scrollbar , #manifesto ::-webkit-scrollbar { width: 0 !important; overflow: -moz-scrollbars-none; -ms-overflow-style: none; }
-
 /* ACTIVE, HOVER STATES */
 
-#design:hover, #design.active { color: #8158FC !important; }
-
-#music:hover, #music.active { color: #3FDE87 !important; }
-
-#video:hover, #video.active { color: #FB5252 !important; }
-
-#vr:hover, #vr.active { color: #EEDA2B !important; }
-
-/* HOME CONTENT */
-
-#main {
-    order: 2;
-    flex-grow: 2;
-    text-align: left;
-    padding: 49px;
-    display: flex; align-items: center; justify-content: flex-start;
-    max-height: 100vh;
-    transition: all 100ms;
-}
-
-#sidebar {
-    order: 1;
-    flex-grow: 1;
-    min-width: 330px;
-    max-width: 25%;
-    padding: 24px;
-
-    display: flex; flex-direction: column; justify-content: space-between; align-items: flex-end;
-    max-height: 100vh;
-}
-
-#sidebar .copyright {
-    position: absolute;
-    bottom: 24px; left: 24px;
-    display: none;
-}
-
-#manifesto-mobile { display: none; padding: inherit; }
-
-.main-menu { margin-right: 20px; }
-
-#main .copyright {
-    position: absolute;
-    bottom: 24px; right: 24px;
-}
-
-#main h1 { margin-top: -1em; }
-
-.logo-holder span {
-    margin-right: 0.75em;
-    font-weight: 500;
-    color: #000000;
-    display: none;
-} .logo-holder { text-decoration: none; }
-
-#main div { padding-left: 50px; }
 
 /* MANIFESTO/CONTACT CONTENT */
 
@@ -259,3 +145,6 @@ form input[type="submit"] {
 #contact-success div { text-align: center; }
 
 #contact-success div p { padding-bottom: 0em; }
+
+/* UTILITY */
+#contact ::-webkit-scrollbar , #manifesto ::-webkit-scrollbar { width: 0 !important; overflow: -moz-scrollbars-none; -ms-overflow-style: none; }

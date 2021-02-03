@@ -1,3 +1,19 @@
-@media only screen and (max-width: 602px) {
+/* PHONES */
+@media only screen and (min-width: 0px) {
+    
+}
+
+/* TABLETS */
+@media only screen and (min-width: 688px) {
+    
+}
+
+/* SMALL SCREENS */
+@media only screen and (min-width: 922px) {
+    
+}
+
+/* BIG SCREENS */
+@media only screen and (min-width: 1312px) {
     
 }

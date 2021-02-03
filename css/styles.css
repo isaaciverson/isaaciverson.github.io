@@ -4,20 +4,14 @@ html { width: 100%; height: 100%; }
 
 body {
     width: 100%; height: 100%;
-    font-family: 'HK Grotesk', sans-serif; font-weight: 800;
+    font-family: 'HK Grotesk', sans-serif; font-weight: 700;
     color: #000000;
-    display: flex; align-content: stretch;
     -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
 }
 
 
 /* ELEMENTS */
-.bordered {
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    border: 2px solid #000000;
-}
+
 
 /* COMPONENTS */
 
@@ -28,10 +22,9 @@ body {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    background-color: #ffffff; color: #000000;
-    font-weight: 600; font-size: 15px;
+    background-color: #000000; color: #ffffff;
+    font-size: 15px;
     text-decoration: none;
-    border: 2px solid #000000;
     line-height: 1px;
     padding: 1.25em 1.75em;
 }
@@ -66,7 +59,7 @@ p {
     -o-user-select: none;
     user-select: none;
 
-    width: 49px; height: 49px;
+    width: 64px; height: 64px;
 }
 
 #contact form {
@@ -105,12 +98,33 @@ form input[type="submit"] {
     margin-top: 16px;
 }
 
-/* ACTIVE, HOVER STATES */
+/* MENUS */
+
+nav { width: 120px; }
+
+a {
+  display: inline-block; box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+nav a {
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+  color: #000000;
+}
+
+nav a:hover {
+  padding-left: 20px;
+}
+
+nav:hover :not(a:hover) { opacity: 0.3 }
 
 
-/* MANIFESTO/CONTACT CONTENT */
+/* CONTACT CONTENT */
 
-#manifesto, #contact, #contact-success {
+#contact, #contact-success {
     width: 100%; height: 100%;
     box-sizing: border-box;
     border: 2px solid #000000;
@@ -119,20 +133,14 @@ form input[type="submit"] {
     text-align: right;
 }
 
-#manifesto .container, #contact .container {
+#contact .container {
     line-height: 150%;
     padding-bottom: 10em;
     overflow-y: scroll;
     text-align: left;
 }
 
-#manifesto h2, #contact h2 { margin-top: 100px; margin-bottom: 0.75em; }
-
-#manifesto span {
-    display: inline-block;
-    padding-bottom: 3em;
-    font-weight: 300;
-}
+#contact h2 { margin-top: 100px; margin-bottom: 0.75em; }
 
 /* CONTACT SUCCESS FORM */
 
@@ -148,3 +156,9 @@ form input[type="submit"] {
 
 /* UTILITY */
 #contact ::-webkit-scrollbar , #manifesto ::-webkit-scrollbar { width: 0 !important; overflow: -moz-scrollbars-none; -ms-overflow-style: none; }
+
+main {
+    background: url("../img/gradient.jpg") no-repeat fixed center center;
+    background-size: cover;
+    width: 100%; height: 100%;
+}

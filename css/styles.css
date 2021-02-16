@@ -275,3 +275,54 @@ form input[type="submit"] {
 
 /* UTILITY */
 #contact ::-webkit-scrollbar , #manifesto ::-webkit-scrollbar { width: 0 !important; overflow: -moz-scrollbars-none; -ms-overflow-style: none; }
+
+/* BIO STYLES */
+.bio {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: "HK Grotesk";
+    background: url("https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2565&q=80") no-repeat center center; background-size: cover;
+    color: #ffffff;
+}
+
+.bio header {
+    width: 100%;
+    text-align: center;
+}
+
+#bio-pic {
+    border-radius: 100%;
+    margin-top: 50px; margin-bottom: -0.2em;
+    box-shadow: 0px 5px 10px rgba(51, 51, 51, 0.3);
+}
+
+.bio header h1 {
+    font-size: 2.25em; font-weight: bold;
+    padding: 0px; margin-bottom: 0.6em;
+}
+
+.bio-location {
+    opacity: 0.75;
+    width: 100%; height: 20px;
+    display: flex; align-items: center; justify-content: center;
+    margin: 0 auto; margin-bottom: 1.5em;
+    font-weight: bold;
+}
+
+.bio-blurb { font-weight: bold; }
+
+.bio-social {
+    position: absolute; bottom: 2em;
+    text-align: center;
+    width: 100%;
+}
+
+.bio-social a {
+    display: inline-block;
+    border-radius: 100%;
+    margin: 0em 0.5em;
+    color: #ffffff;
+    font-size: 2em;
+} .bio-social a img { padding-bottom: 8px; }

@@ -1,36 +1,17 @@
-@media only screen and (max-width: 602px) {
-    #main { display: none; }
-    #main h1 { display: none; }
-    #sidebar .copyright { display: inline-block; }
-    #sidebar { max-width: 100%; }
-    #manifesto-mobile { display: inline-block; padding: 1.25em 1.75em; }
-    .logo-holder span { display: inline-block; }
+/* PHONES */
+@media only screen and (min-width: 0px) and (max-width: 688px) {
+    .hide-small { display: none; }
 
-    #design-body #sidebar,
-    #music-body #sidebar,
-    #video-body #sidebar,
-    #vr-body #sidebar,
-    #other-body #sidebar {
-        display: none !important;
-    }
-
-    #design-body #main,
-    #music-body #main,
-    #video-body #main,
-    #vr-body #main,
-    #other-body #main {
-        min-width: 100% !important; max-width: 100% !important;
-    }
-
-    form input, form textarea {
-        width: 100%;
-        margin: 8px 0px;
-        min-width: 100%;
-    }
+    main { padding: 0; }
+    .main-inner { border-radius: 0px; }
 }
 
-@media only screen and (max-width: 815px) {
-    #main { text-align: center; justify-content: center; }
-    #main h1 { display: none; }
-    #main div { padding-left: 0px; }
+/* TABLETS */
+@media only screen and (min-width: 689px) and (max-width: 1024px) {
+    .hide-medium { display: none; }
+}
+
+/* WIDE SCREENS */
+@media only screen and (min-width: 1025px) {
+    .hide-big { display: none; }
 }

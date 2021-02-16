@@ -4,6 +4,7 @@
 
     main { padding: 0; }
     .main-inner { border-radius: 0px; }
+    .hero { font-size: 200%; text-align: center; }
 }
 
 /* TABLETS */

@@ -273,6 +273,7 @@ form input[type="submit"] {
 
 #contact-success div p { padding-bottom: 0em; }
 
+
 /* UTILITY */
 #contact ::-webkit-scrollbar , #manifesto ::-webkit-scrollbar { width: 0 !important; overflow: -moz-scrollbars-none; -ms-overflow-style: none; }
 

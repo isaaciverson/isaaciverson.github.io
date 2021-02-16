@@ -1,19 +1,17 @@
 /* PHONES */
-@media only screen and (min-width: 0px) {
-    
+@media only screen and (min-width: 0px) and (max-width: 688px) {
+    .hide-small { display: none; }
+
+    main { padding: 0; }
+    .main-inner { border-radius: 0px; }
 }
 
 /* TABLETS */
-@media only screen and (min-width: 688px) {
-    
+@media only screen and (min-width: 689px) and (max-width: 1024px) {
+    .hide-medium { display: none; }
 }
 
-/* SMALL SCREENS */
-@media only screen and (min-width: 922px) {
-    
-}
-
-/* BIG SCREENS */
-@media only screen and (min-width: 1312px) {
-    
+/* WIDE SCREENS */
+@media only screen and (min-width: 1025px) {
+    .hide-big { display: none; }
 }

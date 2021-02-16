@@ -1,47 +1,38 @@
 /* SETUP */
 
-html { width: 100%; height: 100%; }
+html { width: 100vw; height: 100vh; }
 
 body {
     width: 100%; height: 100%;
-    font-family: 'HK Grotesk', sans-serif; font-weight: 700;
+    font-family: 'HK Grotesk', sans-serif;;
+    font-size: 16px;
     color: #000000;
     -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
 }
 
+/* WIP STYLES */
+
+.main-inner.wip {
+    background: #000000 url('../img/filler-layout.png') no-repeat center top;
+    background-size: cover;
+    border-radius: 0px;
+}
+
+p.wip {
+    text-align: center;
+    color: #000000;
+    font-weight: 700;
+}
 
 /* ELEMENTS */
 
-
-/* COMPONENTS */
-
-.container { width: 100%; max-width: 610px; margin: 0 auto; position: relative; z-index: 2; }
-
-.btn {
-    display: inline-block;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    background-color: #000000; color: #ffffff;
-    font-size: 15px;
-    text-decoration: none;
-    line-height: 1px;
-    padding: 1.25em 1.75em;
-}
-
-.btn.btn__only-icon {
-    line-height: 0%;
-    padding: 0.25em 0.42em;
-    font-size: 30px
-}
-
 h1 {
-    font-size: 62px; font-weight: 400;
+    font-size: 400%; font-weight: 700;
 }
 
 h2 {
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 400;
     padding-bottom: 0px; margin-bottom: 0.25em;
 }
 
@@ -52,15 +43,166 @@ p {
     margin-top: 0px; padding-bottom: 1em;
 }
 
+.more-btn {
+    display: flex;
+    align-items: center; justify-content: center;
+    line-height: 0;
+    width: 48px; height: 48px;
+    background-color: #000000; color: #ffffff; font-weight: 700;
+    border-radius: 100%;
+    text-decoration: none;
+} .more-btn span { margin-top: -10px; }
+
+.more-btn.mobile {
+    position: absolute;
+    bottom: 25px; right: 25px;
+    z-index: 100;
+}
+
+/* COMPONENTS */
 .logo {
+    width: 52px; height: 52px;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -o-user-select: none;
     user-select: none;
-
-    width: 64px; height: 64px;
 }
+
+.copyright {
+    display: inline-block; box-sizing: border-box;
+    font-size: 80%;
+    font-weight: 400;
+    opacity: 0.3;
+}
+
+
+/* TRANSITIONS */
+
+.transition-fade {
+    transition: 0.5s;
+    opacity: 1;
+}
+
+html.is-animating .transition-fade {
+    opacity: 0;
+}
+
+html.is-animating .logo {  
+    animation-name: logoSpin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes logoSpin {
+    0% {
+    transform: rotate(0deg)
+    }
+    45%, 50% {
+    transform: rotate(180deg)
+    }
+    95%, 100% {
+    transform: rotate(360deg)
+    }
+}
+
+/* LAYOUT */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    flex-grow: 0;
+    width: 100%;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.container {
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    align-content: stretch;
+    overflow: hidden;
+}
+
+main {
+    flex-grow: 1;
+    padding-left: 1em;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.main-inner {
+    width: 100%; height: 100%;
+    background: #000000 url('../img/gradient.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+    display: flex; align-items: center; justify-content: center;
+    padding: 2em;
+}
+
+.hero { color: #ffffff; }
+
+aside {
+    flex-grow: 0;
+    padding: 1em;
+    display: flex;
+    align-items: flex-end; justify-content: center;
+    box-sizing: border-box;
+}
+
+.longform-container { width: 100%; max-width: 610px; margin: 0 auto; position: relative; z-index: 2; }
+
+header nav {
+    width: 100%;
+}
+
+nav a {
+    transition: all 0.2s ease-out;
+    text-decoration: none;
+    color: #000000;
+    display: inline-block; box-sizing: border-box;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* nav a:hover, nav a:active {  } */
+
+nav:hover :not(a:hover) { opacity: 0.3 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FORMS */
 
 #contact form {
     margin-top: 2em;
@@ -98,29 +240,6 @@ form input[type="submit"] {
     margin-top: 16px;
 }
 
-/* MENUS */
-
-nav { width: 120px; }
-
-a {
-  display: inline-block; box-sizing: border-box;
-  width: 100%;
-  padding: 10px;
-  cursor: pointer;
-}
-
-nav a {
-  transition: all 0.2s ease-out;
-  text-decoration: none;
-  color: #000000;
-}
-
-nav a:hover {
-  padding-left: 20px;
-}
-
-nav:hover :not(a:hover) { opacity: 0.3 }
-
 
 /* CONTACT CONTENT */
 
@@ -156,9 +275,3 @@ nav:hover :not(a:hover) { opacity: 0.3 }
 
 /* UTILITY */
 #contact ::-webkit-scrollbar , #manifesto ::-webkit-scrollbar { width: 0 !important; overflow: -moz-scrollbars-none; -ms-overflow-style: none; }
-
-main {
-    background: url("../img/gradient.jpg") no-repeat fixed center center;
-    background-size: cover;
-    width: 100%; height: 100%;
-}

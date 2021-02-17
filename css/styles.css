@@ -13,7 +13,7 @@ body {
 /* WIP STYLES */
 
 .main-inner.wip {
-    background: #000000 url('../img/filler-layout.png') no-repeat center top;
+    background: #ffffff url('../img/filler-layout.png') no-repeat center top;
     background-size: cover;
     border-radius: 0px;
 }

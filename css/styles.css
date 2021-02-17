@@ -148,7 +148,7 @@ main {
     padding: 2em;
 }
 
-.hero { color: #ffffff; }
+.hero { color: #ffffff; line-height: 100%; font-weight: 700;}
 
 aside {
     flex-grow: 0;
@@ -173,12 +173,28 @@ header .portfolio-nav {
     cursor: pointer;
 }
 
-/* nav a:hover, nav a:active {  } */
-
 .portfolio-nav:hover :not(a:hover) { opacity: 0.3 }
 
+/* MODAL STYLES */
 
-
+.modal-window {
+    position: fixed;
+    background-color: #000000;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+.modal-window:target {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+}
 
 
 

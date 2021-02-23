@@ -81,7 +81,6 @@ p {
     opacity: 0.3;
 }
 
-
 /* TRANSITIONS */
 
 .transition-fade {
@@ -170,6 +169,7 @@ header .portfolio-nav {
     color: #000000;
     display: inline-block; box-sizing: border-box;
     padding: 10px;
+    font-size: 110%;
     cursor: pointer;
 }
 

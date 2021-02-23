@@ -4,6 +4,8 @@
 
     main { padding: 0; }
     .main-inner { border-radius: 0px; }
+
+    .portfolio-nav a { font-size: 100%; }
 }
 
 /* TABLETS */

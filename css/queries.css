@@ -2,7 +2,6 @@
 @media only screen and (min-width: 0px) and (max-width: 688px) {
     .hide-small { display: none; }
 
-    main { padding: 0; }
     .main-inner { border-radius: 0px; }
 
     .portfolio-nav a { font-size: 100%; }
@@ -11,10 +10,12 @@
 /* TABLETS */
 @media only screen and (min-width: 689px) and (max-width: 1024px) {
     .hide-medium { display: none; }
+    main.wip { padding-right: 0; }
 }
 
 /* WIDE SCREENS */
 @media only screen and (min-width: 1025px) {
     .hide-big { display: none; }
     .hero { line-height: 100%; }
+    main.wip { padding-right: 0; }
 }

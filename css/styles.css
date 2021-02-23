@@ -24,6 +24,10 @@ p.wip {
     font-weight: 700;
 }
 
+main.wip {
+    padding: 0em 1em;
+}
+
 /* ELEMENTS */
 
 h1 {

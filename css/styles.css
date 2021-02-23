@@ -24,10 +24,6 @@ p.wip {
     font-weight: 700;
 }
 
-main.wip {
-    padding-left: 1em;
-}
-
 /* ELEMENTS */
 
 h1 {
@@ -58,7 +54,7 @@ p {
 } .more-btn span { margin-top: -10px; }
 
 .more-btn.mobile {
-    position: absolute;
+    position: fixed;
     bottom: 1em; right: 1em;
     z-index: 100;
 }
